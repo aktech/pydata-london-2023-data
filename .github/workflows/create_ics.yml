@@ -1,6 +1,8 @@
 name: Create iCal
 
-on: [push]
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   ical:
@@ -22,3 +24,18 @@ jobs:
         with:
           name: 'calendar.ics'
           path: 'calendar.ics'
+
+      - name: Save ics file
+        run: |
+          ls
+          git status
+          echo "Pull latest changes"
+          git pull
+          pwd
+          git config --global user.email "dtu.amit@gmail.com"
+          git config --global user.name "Amit Kumar [Bot]"
+          git add .
+          git commit -m "Save ical file"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
