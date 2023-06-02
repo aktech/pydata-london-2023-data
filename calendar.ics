@@ -1,0 +1,1301 @@
+BEGIN:VCALENDAR
+BEGIN:VEVENT
+SUMMARY:Breakfast & Registration
+DTSTART:20230602T070000Z
+DTEND;TZID="UTC+01:00":20230602T090000
+DESCRIPTION:None
+LOCATION:Warwick
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Breakfast & Registration
+DTSTART:20230602T070000Z
+DTEND;TZID="UTC+01:00":20230602T090000
+DESCRIPTION:None
+LOCATION:Minories
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Breakfast & Registration
+DTSTART:20230602T070000Z
+DTEND;TZID="UTC+01:00":20230602T090000
+DESCRIPTION:None
+LOCATION:Salisbury
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sktime - python toolbox for time series: time series classificatio
+ n\, regression\, clustering\, with modular time series distances and kerne
+ ls: by Sagar Mishra
+DTSTART;TZID="UTC+01:00":20230602T090000
+DTEND;TZID="UTC+01:00":20230602T103000
+DESCRIPTION:sktime is a widely used scikit-learn compatible library for le
+ arning with time series. sktime is easily extensible by anyone\, and inter
+ operable with the pydata/numfocus stack.\n\nThis tutorial explains how to 
+ use sktime for three learning tasks with independent instances of time ser
+ ies: time series classification\, regression\, clustering. It also explain
+ s their close connection to time series distances\, kernels\, and time ser
+ ies alignment\, and how to flexibly combine such estimators to classifiers
+ \, regressors\, clusterers with custom distances/kernels or feature extrac
+ tion steps.\n\nThis is a continuation of the sktime introductory tutorial 
+ at pydata global 2021.
+LOCATION:Warwick
+ORGANIZER:Sagar Mishra
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:A dive into Hyperparameter Optimization: by Tanay Agrawal
+DTSTART;TZID="UTC+01:00":20230602T090000
+DTEND;TZID="UTC+01:00":20230602T103000
+DESCRIPTION:The tutorial aims to introduce the audience to the power of Hy
+ perparameter Optimization. It will help them learn\; how using simple pyth
+ on libraries one can make a huge difference in their ML model behavior.\n\
+ nWe start with understanding the importance of hyperparameters\, and the d
+ ifferent distributions they are selected from. We then review some basic m
+ ethods of optimizing hyperparameters\, moving on to distributed methods an
+ d then to bayesian optimization methods. We'll use these algorithms hands-
+ on\, and play around with search spaces. We'll try out packages like Hyper
+ opt\, Dask\, Optuna\, to tune hyperparameters.\n\nThis tutorial will help 
+ beginner-level ML practitioners and working professionals use these method
+ s in their applied ML tasks. They will be able to enhance the model qualit
+ y and tune hyperparameters for bulky experiments more effectively.\n\n**Pr
+ ior Knowledge Expected** - Basic Python\, a very basic understanding of Ma
+ chine learning.\\\n**Good to have** - worked with libraries like scikit-le
+ arn(just knowing `model.fit()` should be enough)
+LOCATION:Salisbury
+ORGANIZER:Tanay Agrawal
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:From zero to a working ML system with only Python\, free serverles
+ s services and FTI pipelines: by Jim Dowling
+DTSTART;TZID="UTC+01:00":20230602T090000
+DTEND;TZID="UTC+01:00":20230602T103000
+DESCRIPTION:We will build an operational ML system to predict air quality 
+ in London. Instead of a single monolithic ML pipeline\, we will build a mo
+ re manageable system as 3 FTI pipelines: a Feature pipeline\, a Training p
+ ipeline\, and an Inference pipeline\, connected together by a feature stor
+ e. The feature pipeline scrapes new data and provides historical data (air
+  quality observations and weather forecasts)\, The  training pipeline prod
+ uces a model using the air quality observations and features. The inferenc
+ e pipeline takes weather forecasts and predicts air quality for London\, v
+ isualized in a UI. The system will be hosted on free serverless services -
+  Modal\, Hugging Face Spaces\, and Hopsworks. It will be a continually imp
+ roving ML system that keeps collecting more data\, making better predictio
+ ns\, and provides a hindcast with insights into its historical performance
+ .
+LOCATION:Minories
+ORGANIZER:Jim Dowling
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+DTSTART:20230602T093000Z
+DTEND;TZID="UTC+01:00":20230602T110000
+DESCRIPTION:None
+LOCATION:Salisbury
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+DTSTART:20230602T093000Z
+DTEND;TZID="UTC+01:00":20230602T110000
+DESCRIPTION:None
+LOCATION:Warwick
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+DTSTART:20230602T093000Z
+DTEND;TZID="UTC+01:00":20230602T110000
+DESCRIPTION:None
+LOCATION:Minories
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+DTSTART:20230602T093000Z
+DTEND;TZID="UTC+01:00":20230602T110000
+DESCRIPTION:None
+LOCATION:Salisbury
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:From Passive to Active: Exploring the Benefits of Active Learning 
+ in Data Science: by Mate Timar
+DTSTART;TZID="UTC+01:00":20230602T110000
+DTEND;TZID="UTC+01:00":20230602T123000
+DESCRIPTION:Active Learning is a powerful technique in the field of data s
+ cience that enables efficient use of labelling resources. In this 90-minut
+ e-long hands-on tutorial\, we will provide a step-by-step guide on how to 
+ apply basic Active Learning techniques for a document classification probl
+ em.\n\nThe tutorial will begin with an introduction to Active Learning\, f
+ ollowed by a brief discussion of its cost and time savings benefits. Next\
+ , we will implement clustering to select the first batch of training data.
+  Then\, we will train a document classification model and analyse fundamen
+ tal Active Learning concepts such as diversity\, isolation\, and model unc
+ ertainty. We will compare different metrics to select the best points for 
+ annotation.\n\nFinally\, we will evaluate the model's performance and comp
+ are the results of Active Learning with random annotation. Throughout the 
+ tutorial\, attendees will have the opportunity to work on their implementa
+ tion and receive assistance.\n\nBy the end of this tutorial\, attendees wi
+ ll better understand the principles of Active Learning and how to apply th
+ em to their own supervised learning problems\, enabling them to make more 
+ efficient use of their labelling resources.
+LOCATION:Salisbury
+ORGANIZER:Mate Timar
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Entering the Forest with TensorFlow - An intro: by Lisa Carpenter
+DTSTART;TZID="UTC+01:00":20230602T110000
+DTEND;TZID="UTC+01:00":20230602T123000
+DESCRIPTION:This 90-minute tutorial provides an introduction to using Tens
+ orFlow for building random forest models. The tutorial will begin with an 
+ overview of the random forest algorithm and its advantages in the context 
+ of machine learning. Next\, participants will learn how to implement a ran
+ dom forest model using TensorFlow's high-level API\, Keras. The tutorial w
+ ill cover important concepts such as model architecture\, hyperparameter t
+ uning\, and training and evaluation techniques. Additionally\, participant
+ s will learn how to use TensorFlow's TensorBoard to visualize and monitor 
+ their models during training. The tutorial will conclude with a discussion
+  of best practices and tips for improving the performance of random forest
+  models. By the end of the tutorial\, participants will have gained a soli
+ d understanding of how to use TensorFlow to build powerful and accurate ra
+ ndom forest models.
+LOCATION:Warwick
+ORGANIZER:Lisa Carpenter
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:An Introduction to Polars: by jonny edwards
+DTSTART;TZID="UTC+01:00":20230602T110000
+DTEND;TZID="UTC+01:00":20230602T123000
+DESCRIPTION:[Polars](https://www.pola.rs) is a next generation data-frame 
+ library which aims to be fast\, efficient\, composable and lazy! This intr
+ oductory tutorial will take you through the basics of getting started with
+  polars in Python. We will demonstrate the out the box multi-core efficien
+ cies\, by composing advanced filters and joins\, before comparing with the
+  traditional pandas workflows. As a finale we will look at some lazy proce
+ ssing when applying polars to large scale data-sets.
+LOCATION:Minories
+ORGANIZER:jonny edwards
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART:20230602T113000Z
+DTEND;TZID="UTC+01:00":20230602T133000
+DESCRIPTION:None
+LOCATION:Warwick
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART:20230602T113000Z
+DTEND;TZID="UTC+01:00":20230602T133000
+DESCRIPTION:None
+LOCATION:Minories
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART:20230602T113000Z
+DTEND;TZID="UTC+01:00":20230602T133000
+DESCRIPTION:None
+LOCATION:Salisbury
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hands-on Intro to developing Explainability for Recommendation Sys
+ tems: by Ade Idowu
+DTSTART;TZID="UTC+01:00":20230602T133000
+DTEND;TZID="UTC+01:00":20230602T150000
+DESCRIPTION:Over the last decade\, the commercial use of recommendation en
+ gines/systems by business has grown substantially\, enabling the flexible 
+ and accurate recommendation of items/services to users. Examples of popula
+ r recommenders include (to name a few) movies\, videos and books recommend
+ ation engines offered by Netflix\, Youtube and Amazon respectively. \n\nIn
+  general\, most recommender systems are typically “black-box” algorith
+ ms trained to provide inference of relevant items to users using technique
+ s such as collaborative or content-based filtering models or hybrid models
+ . The algorithms used in these systems are broadly opaque\, thus making th
+ e predicted recommendations lack full interpretability/explainability. Mak
+ ing recommenders explainable is very essential\, as they try to provide tr
+ ansparency and address the question of why were particular items recommend
+ ed by the engine to users/system designers. \n\nOver the last few years th
+ ere has been a growing area of research and development in explainable rec
+ ommendation systems. Explainable recommendations systems are generally cla
+ ssified as Post-hoc (i.e. explainability is done post-recommendation) or I
+ ntrinsic (explainability is integrated into the recommender model) approac
+ hes. This workshop will provide a hands-on implementation of some of these
+  approaches.
+LOCATION:Salisbury
+ORGANIZER:Ade Idowu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bring best practices to your messy data science team!: by Gabriel 
+ Harris
+DTSTART;TZID="UTC+01:00":20230602T133000
+DTEND;TZID="UTC+01:00":20230602T150000
+DESCRIPTION:If part of your job is to constantly poke your fellow data sci
+ entist to isolate projects environments\, updating requirements\, cleaning
+  code\, writing consistent docstrings\, etc.\, then you should definitely 
+ join us for this very hands-on tutorial with reproducibility\, compliance\
+ , and consistency in mind
+LOCATION:Minories
+ORGANIZER:Gabriel Harris
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building an End-to-End Open-Source Modern Data Platform for Biomed
+ ical Data: by Alberto Labarga
+DTSTART;TZID="UTC+01:00":20230602T133000
+DTEND;TZID="UTC+01:00":20230602T150000
+DESCRIPTION:Join us for a 90-minute tutorial on how to build an end-to-end
+  open-source modern data platform for biomedical data using Python-based t
+ ools. In this tutorial\, we will explore the technologies related to data 
+ warehousing\, data integration\, data transformation\, data orchestration\
+ , and data visualization. We will use open-source tools such as DBT\, Apac
+ he Airflow\, Openmetadata\, and Querybook to build the platform. All mater
+ ials will be available on GitHub for attendees to access.
+LOCATION:Warwick
+ORGANIZER:Alberto Labarga
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break & Snack
+DTSTART:20230602T140000Z
+DTEND;TZID="UTC+01:00":20230602T153000
+DESCRIPTION:None
+LOCATION:Salisbury
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break & Snack
+DTSTART:20230602T140000Z
+DTEND;TZID="UTC+01:00":20230602T153000
+DESCRIPTION:None
+LOCATION:Minories
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break & Snack
+DTSTART:20230602T140000Z
+DTEND;TZID="UTC+01:00":20230602T153000
+DESCRIPTION:None
+LOCATION:Warwick
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Delta Lake 101: How many water metaphors does it take to describe 
+ data?: by Holly Smith\, Eoin O'Flanagan
+DTSTART;TZID="UTC+01:00":20230602T153000
+DTEND;TZID="UTC+01:00":20230602T170000
+DESCRIPTION:Delta Lake is an open-source storage framework that enables th
+ e creation of a Lakehouse architecture using a variety of compute engines 
+ such as Spark\, PrestoDB\, Flink\, Trino\, and Hive from Python. Its high 
+ data reliability and optimized query performance make it an ideal solution
+  for supporting big data use cases\, including batch and streaming data in
+ gestion\, fast interactive queries\, and machine learning.
+LOCATION:Warwick
+ORGANIZER:Holly Smith, Eoin O'Flanagan
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MLflow workshop: by Theodore Meynard
+DTSTART;TZID="UTC+01:00":20230602T153000
+DTEND;TZID="UTC+01:00":20230602T170000
+DESCRIPTION:In this tutorial\, we will learn the basis of MLflow. After in
+ troducing the library and the problem it solved we will implement an end-t
+ o-end machine learning lifecycle using MLflow.
+LOCATION:Salisbury
+ORGANIZER:Theodore Meynard
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Martial Arts Meets Machine Learning: Recognizing Judo Throws with 
+ MMAction2: by Habeeb Shopeju
+DTSTART;TZID="UTC+01:00":20230602T153000
+DTEND;TZID="UTC+01:00":20230602T170000
+DESCRIPTION:Object detection is arguably the most common Computer Vision t
+ ask. It is applied to images and videos across various domains. However\, 
+ action recognition is a tad different from object detection because it can
+  be difficult to tell certain actions from a single image. It is hard to t
+ ell if a door is being opened or closed or tell what martial art technique
+  is being executed from an image.\n\nIn this tutorial\, the MMAction2 fram
+ ework will be used to train an action recognition model to detect what Jud
+ o throws are being performed in videos. While it will be fun seeing Machin
+ e Learning techniques applied to Martial Arts\, the knowledge and techniqu
+ es applied can easily be generalized to other action recognition tasks whe
+ re simple object detection does not suffice.
+LOCATION:Minories
+ORGANIZER:Habeeb Shopeju
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Breakfast & Registration
+DTSTART:20230603T070000Z
+DTEND;TZID="UTC+01:00":20230603T090000
+DESCRIPTION:None
+LOCATION:Beaumont
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Breakfast & Registration
+DTSTART:20230603T070000Z
+DTEND;TZID="UTC+01:00":20230603T090000
+DESCRIPTION:None
+LOCATION:Minories
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Breakfast & Registration
+DTSTART:20230603T070000Z
+DTEND;TZID="UTC+01:00":20230603T090000
+DESCRIPTION:None
+LOCATION:Warwick
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Breakfast & Registration
+DTSTART:20230603T070000Z
+DTEND;TZID="UTC+01:00":20230603T090000
+DESCRIPTION:None
+LOCATION:Salisbury
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Keynote: Large Language Models: From Prototype to Production: by I
+ nes Montani
+DTSTART;TZID="UTC+01:00":20230603T090000
+DTEND;TZID="UTC+01:00":20230603T094500
+DESCRIPTION:Keynote with Ines Montani
+LOCATION:Warwick
+ORGANIZER:Ines Montani
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break & Snacks
+DTSTART:20230603T084500Z
+DTEND;TZID="UTC+01:00":20230603T101500
+DESCRIPTION:None
+LOCATION:Minories
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break & Snacks
+DTSTART:20230603T084500Z
+DTEND;TZID="UTC+01:00":20230603T101500
+DESCRIPTION:None
+LOCATION:Salisbury
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break & Snacks
+DTSTART:20230603T084500Z
+DTEND;TZID="UTC+01:00":20230603T101500
+DESCRIPTION:None
+LOCATION:Warwick
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Opinionated Python Stack I chose for my Company’s ML Project
+ s and how I bundled it in a Project Generator: by Yannick Wolff
+DTSTART;TZID="UTC+01:00":20230603T101500
+DTEND;TZID="UTC+01:00":20230603T105500
+DESCRIPTION:Have you ever struggled with choosing the right tools for your
+  Machine Learning projects? As a Lead Data Scientist in a consulting firm\
+ , I faced this challenge repeatedly and finally converged to a small set o
+ f technologies which allow to build reliable and scalable projects with a 
+ great DX (Developer Experience). In this talk\, I will share the key compo
+ nents of my ML stack\, including DVC\, Streamlit\, FastAPI\, Terraform and
+  other powerful tools to streamline the development and experimentation pr
+ ocesses. Through a live demo\, I will finally show you the Project Generat
+ or I’ve built to encourage adoption of these technologies and to help Da
+ ta Scientists focus on the ML itself rather than the "plumbing" around it.
+  Attendees should have a basic understanding of Python and Machine Learnin
+ g concepts.
+LOCATION:Salisbury
+ORGANIZER:Yannick Wolff
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building a data science solution for an NGO when you don’t know 
+ what infrastructure it will run on: a case study predicting tutor supply a
+ nd demand mismatch: by Adam Hill
+DTSTART;TZID="UTC+01:00":20230603T101500
+DTEND;TZID="UTC+01:00":20230603T105500
+DESCRIPTION:The Brilliant Club supports less advantaged students to access
+  and succeed in the UK’s most competitive universities. They do this by 
+ mobilising the PhD community to support students in schools via their cour
+ ses and tutoring programme. A challenge they face is being able to anticip
+ ate the tutor supply they need to meet the increasing demands of their pro
+ grammes as they expand nationally. A team of six DataKind UK volunteers wo
+ rked with The Brilliant Club to develop a way to forecast and visualise th
+ e mismatch between tutor supply and demand across the UK. This is a talk a
+ bout how we collaboratively explored their data and built a valuable\, new
+  tool for them and\, crucially\, how we did so in a flexible\, scalable wa
+ y that provides them with immediate value but also will fit into their fut
+ ure use of digital and cloud-based tools. This talk is for people intrigue
+ d by deploying new\, data-driven solutions in organisations that are only 
+ just maturing into the data space. No previous knowledge is required.
+LOCATION:Minories
+ORGANIZER:Adam Hill
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Causal modelling of agent-customer pairing outcomes to optimise ca
+ ll centre performance: by Petros Syntelis
+DTSTART;TZID="UTC+01:00":20230603T101500
+DTEND;TZID="UTC+01:00":20230603T105500
+DESCRIPTION:Large scale call centres are the frontline of customer experie
+ nce across many industries. Optimizing their operations is crucial for ach
+ ieving better customer service. We model agent customer pairing as a “ta
+ lent” allocation problem. In this talk\, we discuss how we used uplift m
+ odelling to provide real time agent-customer pairings that drive a positiv
+ e lift in overall interaction score (which can come from any arbitrary sco
+ ring function). We discuss the challenges of developing and deploying such
+  models to make real-time interventions in call centres. Similar approache
+ s can be used to drive uplift of any important business KPI with respect t
+ o an allocation decision.
+LOCATION:Warwick
+ORGANIZER:Petros Syntelis
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Code Smells in Data Science: What can we do about them?: by Laszlo
+  Sragner
+DTSTART;TZID="UTC+01:00":20230603T110000
+DTEND;TZID="UTC+01:00":20230603T114000
+DESCRIPTION:We all want to write cleaner code but usually don't know where
+  to start. It also doesn't help that most guides available are written for
+  software engineers and not data scientists.\n\nCode smells are a taxonomy
+  and a well-defined set of instructions on how to identify typical antipat
+ terns in your code and change them in a few steps.\n\nIn this talk\, I wil
+ l select a short list of typical code smells that frequently appear in dat
+ a-intensive workflows and walk you through how to resolve them.
+LOCATION:Salisbury
+ORGANIZER:Laszlo Sragner
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Large scale agent-based simulations: how to do it right\, and how 
+ we used one to optimise fibre broadband rollout across the UK: by James Sc
+ hofield\, Tristan West
+DTSTART;TZID="UTC+01:00":20230603T110000
+DTEND;TZID="UTC+01:00":20230603T114000
+DESCRIPTION:What’s the optimal way to upgrade a broadband network to fib
+ re? In this session we’ll talk about how we used actor-based simulations
+  and discrete optimisation to build a planning tool that has not only opti
+ mised one of the biggest fibre upgrade operations in the UK\, but also unl
+ ocked powerful scenario testing capabilities. We’ll go through how to ar
+ chitect scalable\, agent-based simulations using only open-source librarie
+ s and Python\, then take you on our journey (including pointing out pitfal
+ ls) towards optimising UK wide fibre broadband rollout.
+LOCATION:Warwick
+ORGANIZER:James Schofield, Tristan West
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Python for the Public Sector: How data science is being put to wor
+ k for the public good: by Arthur Turrell
+DTSTART;TZID="UTC+01:00":20230603T110000
+DTEND;TZID="UTC+01:00":20230603T114000
+DESCRIPTION:In this talk\, I will take you on a rollercoaster tour of how 
+ data science is delivering for the public good at the Office for National 
+ Statistics’ Data Science Campus and beyond. Drawing on examples from the
+  dozens of data scientists working at the Campus\, you’ll find out how P
+ ython is improving the public sector already in a myriad of ways\, from cr
+ eating or improving national statistics\, to forecasting the economy\, to 
+ dealing with Covid-19\, to evaluating efforts to tackle the gender pay gap
+ . We’ll even see how a tweet by a food campaigner led to a huge effort t
+ o web-scrape budget brand offerings in UK supermarkets—analysis that mad
+ e it onto every major UK news programme! And we’ll look ahead to the cha
+ llenges\, and potential\, of Python for the public sector in the future.
+LOCATION:Minories
+ORGANIZER:Arthur Turrell
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Executives at PyData: by Ian Ozsvald
+DTSTART;TZID="UTC+01:00":20230603T110000
+DTEND;TZID="UTC+01:00":20230603T114000
+DESCRIPTION:Executives at PyData is a facilitated discussion session for e
+ xecutives and leaders to discuss challenges around designing and deliverin
+ g successful data projects\, organizational communication\, product manage
+ ment and design\, hiring\, and team growth.\n\nWe'll announce the agenda a
+ t the start of the session\, you can ask questions or raise issues to get 
+ feedback from other leaders in the room\, NumFOCUS board members and Ian a
+ nd James.\n\nOrganized by Ian Ozsvald (London) and James Powell (New York)
+LOCATION:Beaumont
+ORGANIZER:Ian Ozsvald
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Unlocking the potential of multi-armed bandits for personalised re
+ commendations in a data-poor environment: by Maria Matskevichus
+DTSTART;TZID="UTC+01:00":20230603T114500
+DTEND;TZID="UTC+01:00":20230603T122500
+DESCRIPTION:It’s not a secret that machine learning-based personal recom
+ mendations can help businesses to understand their customers better\, and 
+ increase customer loyalty and engagement. Netflix\, Youtube\, and Amazon a
+ re just a few examples of success stories in this domain. These companies 
+ have all made extensive use of user-item preference data. However\, what s
+ hould companies with little or no such data do? During this presentation\,
+  I will share with you my own experience of applying multi-armed bandits i
+ n a data-poor environment\, and provide an overview of the mistakes I made
+ \, the results I received\, and the lessons I learned.
+LOCATION:Warwick
+ORGANIZER:Maria Matskevichus
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:✨ fastAPI facts we wish we'd known beforehand. Spoiler: It's not
+  about getting started.: by Alexander Hendorf
+DTSTART;TZID="UTC+01:00":20230603T114500
+DTEND;TZID="UTC+01:00":20230603T122500
+DESCRIPTION:An exchange of views on fastAPI in practice.\n\nFastAPI has be
+ come an integral part of the PyData ecosytem. FastAPI is great\, it helps 
+ many engineers create REST APIs based on the OpenAPI standard and run them
+  asynchronously. It has a thriving community and educational documentation
+ . \n\nFastAPI does a great job of getting people started with APIs quickly
+ .\n\nThis talk will point out some obstacles and dark spots that I wish we
+  had known about before. In this talk we want to highlight solutions based
+  on experience building a data hub in asset management.
+LOCATION:Salisbury
+ORGANIZER:Alexander Hendorf
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Green software - building sustainable Python data analytics: by Ma
+ rk Pinkerton
+DTSTART;TZID="UTC+01:00":20230603T114500
+DTEND;TZID="UTC+01:00":20230603T122500
+DESCRIPTION:Were you aware that the cloud infrastructure powering modern c
+ omputing has a larger greenhouse gas footprint than commercial aviation? T
+ his talk is aimed at developers and data scientists who are concerned abou
+ t the impact of their work on the environment and want to explore practica
+ l solutions to address this challenge. We will explain how greenhouse gas 
+ emissions are categorized and estimated for computing. We will also introd
+ uce approaches to developing more sustainable software and provide practic
+ al examples using Python data analytics.
+LOCATION:Minories
+ORGANIZER:Mark Pinkerton
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART:20230603T113000Z
+DTEND;TZID="UTC+01:00":20230603T133000
+DESCRIPTION:None
+LOCATION:Salisbury
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART:20230603T113000Z
+DTEND;TZID="UTC+01:00":20230603T133000
+DESCRIPTION:None
+LOCATION:Warwick
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART:20230603T113000Z
+DTEND;TZID="UTC+01:00":20230603T133000
+DESCRIPTION:None
+LOCATION:Minories
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lightning Talks
+DTSTART:20230603T123000Z
+DTEND;TZID="UTC+01:00":20230603T143000
+DESCRIPTION:None
+LOCATION:Warwick
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break & Snack
+DTSTART:20230603T133000Z
+DTEND;TZID="UTC+01:00":20230603T150000
+DESCRIPTION:None
+LOCATION:Salisbury
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break & Snack
+DTSTART:20230603T133000Z
+DTEND;TZID="UTC+01:00":20230603T150000
+DESCRIPTION:None
+LOCATION:Warwick
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break & Snack
+DTSTART:20230603T133000Z
+DTEND;TZID="UTC+01:00":20230603T150000
+DESCRIPTION:None
+LOCATION:Minories
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Event Driven Machine Learning: by Natan Mish
+DTSTART;TZID="UTC+01:00":20230603T150000
+DTEND;TZID="UTC+01:00":20230603T154000
+DESCRIPTION:This talk focuses on the benefits of using an event-driven app
+ roach for machine learning products. We will cover the basics of event-dri
+ ven architecture for software development and provide examples of how it c
+ an be applied for machine learning use cases. The talk will be accompanied
+  by live examples and code for you to follow along\, using open source too
+ ls such as *Apache Kafka*\, *FastAPI* and *River*. By the end of the talk\
+ , you'll have a good understanding of the advantages of event-driven archi
+ tectures\, such as improved scalability and responsiveness. If you are a m
+ achine learning practitioner interested in exploring this topic\, this tal
+ k is a great starting point in which we will cover the concepts\, tools an
+ d common pitfalls of the event driven framework for machine learning produ
+ cts.
+LOCATION:Minories
+ORGANIZER:Natan Mish
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Teach data science better (a discussion): by Lisa Carpenter
+DTSTART;TZID="UTC+01:00":20230603T150000
+DTEND;TZID="UTC+01:00":20230603T154000
+DESCRIPTION:This discussion session is for educators to talk about how we 
+ teach data science in industry and academia. It'll be a guided discussion\
+ , we'll vote on the top topics to discuss at the start and then we'll work
+  our way through problems\, solutions and new ideas. Maybe we'll get to ta
+ lk about ChatGPT\, or using Jupyter\, or when to "teach in an IDE"\, or ho
+ w to balance lecture vs problem solving vs homework - all topics can be up
+  for voting at the start.
+LOCATION:Beaumont
+ORGANIZER:Lisa Carpenter
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Garbage in -> Pydantic -> you're golden!: by Samuel Colvin
+DTSTART;TZID="UTC+01:00":20230603T150000
+DTEND;TZID="UTC+01:00":20230603T154000
+DESCRIPTION:[Pydantic](https://docs.pydantic.dev/) is a data validation li
+ brary for Python that has seen massive adoption over the last few years - 
+ it's used by major datascience and ML libraries like [Spacy](https://spacy
+ .io/usage/v3#features-types)\, [Huggingface](https://github.com/huggingfac
+ e/transformers) and [jinja-ai](https://github.com/jina-ai/jina) - overall 
+ Pydantic is downloaded over 50m times a month!\n\nIn this talk Samuel Colv
+ in\, the creator of Pydantic will cover two subjects which have seen massi
+ ve interest in recent years:\n\n* How Pydantic can be used to prepare data
+  for processing thereby saving time and avoiding errors\n* The emergence o
+ f Rust as the go-to language for high performance python libraries - how t
+ his might go in the future\, and the benefits and drawbacks of the trend
+LOCATION:Salisbury
+ORGANIZER:Samuel Colvin
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Serverless Python Analytics at Petabyte scale using ArcticDB: by W
+ illiam Dealtry
+DTSTART;TZID="UTC+01:00":20230603T150000
+DTEND;TZID="UTC+01:00":20230603T154000
+DESCRIPTION:At Man Group we ingest data of all shapes and sizes\, from mar
+ ket prices to weather\, ESG reporting to news media. Storing that data in 
+ a format that is useful both to researchers and to strategies trading more
+  than a billion dollars is a unique technical challenge - on that has resu
+ lted in two iterations of our high-performance data storage product Arctic
+ DB. The aim is nothing less than to bring the performance and analytical c
+ apabilities of a server infrastructure right into the Python client. With 
+ the client now available on Conda and PyPI. and the source published on Gi
+ tHub\, I want to take you on a tour of our database\; the design rationale
+ \, the ups and downs of developing a new database while supporting a billi
+ on-dollar trading estate\, and the lessons we've learned along the way.
+LOCATION:Warwick
+ORGANIZER:William Dealtry
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mastering Great Expectations: Ensuring Data Quality in Your Data P
+ ipelines.: by Carsten Frommhold
+DTSTART;TZID="UTC+01:00":20230603T154500
+DTEND;TZID="UTC+01:00":20230603T162500
+DESCRIPTION:Join me as we dive into the world of Great Expectations\, an o
+ pen-source tool that helps data driven teams ensure their pipelines delive
+ r high-quality data. You will be introduced to the key concepts of Great E
+ xpectations\, including data validation\, documentation and lineage. Plus\
+ , I'll show you how to set up Great Expectations in a cloud environment\, 
+ using Google Cloud Platform as an example. By the end of this talk\, you'l
+ l have a solid understanding of how Great Expectations can improve the rel
+ iability and correctness of your datasets and transformations.
+LOCATION:Warwick
+ORGANIZER:Carsten Frommhold
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Language Models for Music Recommendation: by Nischal\, Raghotham S
+DTSTART;TZID="UTC+01:00":20230603T154500
+DTEND;TZID="UTC+01:00":20230603T162500
+DESCRIPTION:Music streaming services like Spotify and youtube are famous f
+ or their recommendation systems and each service takes a unique approach t
+ o recommending and personalize content. While most users are happy with th
+ e recommendations provided\, there are a section of users who are curious 
+ how and why a certain track is recommended. Complex recommendation systems
+  take various factors like track metadata\, user metadata\, and play count
+ s along with the track content itself. \n\nInspired by Andrej Karpathy to 
+ build an own GPT\, we have to use Language Models to build our own music r
+ ecommendation system.
+LOCATION:Minories
+ORGANIZER:Nischal, Raghotham S
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Pandas 2\, Dask or Polars? Quickly tackling larger data on a singl
+ e machine: by Ian Ozsvald\, Giles Weaver
+DTSTART;TZID="UTC+01:00":20230603T154500
+DTEND;TZID="UTC+01:00":20230603T162500
+DESCRIPTION:Pandas 2 brings new Arrow data types\, faster calculations and
+  better scalability. Dask scales Pandas across cores. Polars is a new comp
+ etitor to Pandas designed around Arrow with native multicore support. Whic
+ h should you choose for modern research workflows? We'll solve a "just abo
+ ut fits in ram" data task using the 3 solutions\, talking about the pros a
+ nd cons so you can make the best choice for your research workflow. You'll
+  leave with a clear idea of whether Pandas 2\, Dask or Polars is the tool 
+ for your team to invest in.
+LOCATION:Salisbury
+ORGANIZER:Ian Ozsvald, Giles Weaver
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Future of MLOps: Embedding Active Learning into Your ML Model 
+ Development Pipelines: by Frederik Hvilshøj
+DTSTART;TZID="UTC+01:00":20230603T163000
+DTEND;TZID="UTC+01:00":20230603T171000
+DESCRIPTION:Join us for an insightful session on active learning and its a
+ pplications in machine learning. You will learn how leading teams are embe
+ dding active learning into their ML pipelines and how to build your first 
+ active learning loop. This session is for ML engineers and data scientists
+  (aspiring or practitioners) who want to stay updated on the latest techni
+ ques and learn how to implement active learning with open-source tools.
+LOCATION:Minories
+ORGANIZER:Frederik Hvilshøj
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Discussing Higher Performance Python (Birds of a Feather session):
+  by Ian Ozsvald
+DTSTART;TZID="UTC+01:00":20230603T163000
+DTEND;TZID="UTC+01:00":20230603T171000
+DESCRIPTION:This discussion session is for anyone using Python for higher 
+ performance work. You probably use Pandas\, NumPy\, Polars\, Dask\, Vaex\,
+  Modin\, cuDF or any of the related tools\, you've got questions\, you wan
+ t to know what other people are using\, what's pragmatic and where new opp
+ ortunity might exist.\nThis will be a guided discussion\, we'll vote on to
+ pics at the start of the session and then host Ian will work through the l
+ ist.
+LOCATION:Beaumont
+ORGANIZER:Ian Ozsvald
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Autoencoders for Time Series Clustering: by vincenzo crescimanna\,
+  Valerio Bonometti
+DTSTART;TZID="UTC+01:00":20230603T163000
+DTEND;TZID="UTC+01:00":20230603T171000
+DESCRIPTION:AutoEncoders (AEs) are among the most popular techniques in mo
+ dern machine learning. Thanks to their strong representation learning capa
+ bility\, they can be used not only to generate data\, but also for many ot
+ her tasks\, e.g. clustering\, dimensionality reduction and transfer learni
+ ng. \n\nDespite their popularity\, their application is usually advertised
+  mostly for applications with static tabular (e.g. for recommender systems
+ ) and image data (e.g. for computer vision tasks). With this talk we will 
+ try to shed some light on a less well-known area of application\, namely t
+ he use of AEs with time series data. After a brief introduction on AEs we 
+ will highlight challenges to their application in the time-series domain w
+ ith a particular focus on clustering\, features extraction and transfer le
+ arning. \n\nThe talk is for everyone with an interest in deep learning\, t
+ ime series and their intersection. Despite some working knowledge of appli
+ ed machine learning (deep learning in particular) and time series analysis
+  would be beneficial\, the talk will be delivered in a format accessible t
+ o all data science practitioners.
+LOCATION:Warwick
+ORGANIZER:vincenzo crescimanna, Valerio Bonometti
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Unleashing the Power of dbt and Python for Modern Data Stack: by M
+ eder Kamalov
+DTSTART;TZID="UTC+01:00":20230603T163000
+DTEND;TZID="UTC+01:00":20230603T171000
+DESCRIPTION:This talk will introduce the PyData community to dbt and demon
+ strate how to leverage Python to unlock its full potential. Attendees will
+  learn best practices for working with dbt\, how to integrate it with othe
+ r tools in their data stack\, and how to use Python packages like fal to p
+ erform complex data analysis. With real-world examples and use cases\, thi
+ s talk will equip attendees with the tools to build a modern\, scalable\, 
+ and maintainable data infrastructure.
+LOCATION:Salisbury
+ORGANIZER:Meder Kamalov
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Breakfast & Registration
+DTSTART:20230604T070000Z
+DTEND;TZID="UTC+01:00":20230604T090000
+DESCRIPTION:None
+LOCATION:Warwick
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Breakfast & Registration
+DTSTART:20230604T070000Z
+DTEND;TZID="UTC+01:00":20230604T090000
+DESCRIPTION:None
+LOCATION:Beaumont
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Breakfast & Registration
+DTSTART:20230604T070000Z
+DTEND;TZID="UTC+01:00":20230604T090000
+DESCRIPTION:None
+LOCATION:Salisbury
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Breakfast & Registration
+DTSTART:20230604T070000Z
+DTEND;TZID="UTC+01:00":20230604T090000
+DESCRIPTION:None
+LOCATION:Minories
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Keynote: Research Software Engineering and other Research Technolo
+ gy roles: by Martin O'Reilly
+DTSTART;TZID="UTC+01:00":20230604T090000
+DTEND;TZID="UTC+01:00":20230604T094500
+DESCRIPTION:Software plays an increasingly critical role in research and o
+ ver the past decade this has seen Research Software Engineering (RSE) emer
+ ge as a distinct role within both the academic and commercial research sec
+ tors. [First coined](https://www.software.ac.uk/blog/2016-08-17-not-so-bri
+ ef-history-research-software-engineers-0) at a community workshop in 2012\
+ , "Research Software Engineer" gave a name to those researchers who had be
+ en spending most of their time writing software and brought together a com
+ munity to establish a dedicated career pathway for the role within UK acad
+ emia.\n\nOver the past decade the demand for RSEs has grown rapidly and th
+ e role has become well established in both academia and industry\, with th
+ e number of RSE roles and RSE groups expanding rapidly year on year\, sust
+ ainable career pathways for RSEs in place at many organisations\, and a [p
+ rofessional society](https://society-rse.org/) for the role established. R
+ ecent years have also seen the emergence of other related Research Technol
+ ogy roles such as Research Data Scientists\, Research Data Stewards\, Rese
+ arch Application Managers and Community Managers.\n\nIn this talk Martin w
+ ill give an overview of Research Software Engineering and related roles\, 
+ and will examine the similarities and differences between these roles and 
+ their counterparts outside the research sector. Martin will describe the j
+ ourney the community has made from naming a new role\, to establishing a c
+ ommunity of practice\, to building a sustainable new profession.
+LOCATION:Warwick
+ORGANIZER:Martin O'Reilly
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+DTSTART:20230604T084500Z
+DTEND;TZID="UTC+01:00":20230604T101500
+DESCRIPTION:None
+LOCATION:Warwick
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+DTSTART:20230604T084500Z
+DTEND;TZID="UTC+01:00":20230604T101500
+DESCRIPTION:None
+LOCATION:Salisbury
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break
+DTSTART:20230604T084500Z
+DTEND;TZID="UTC+01:00":20230604T101500
+DESCRIPTION:None
+LOCATION:Minories
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building a skills extraction library using NLP tools: by India Ker
+ le\, Liz Gallagher\, Jack Vines
+DTSTART;TZID="UTC+01:00":20230604T101500
+DTEND;TZID="UTC+01:00":20230604T105500
+DESCRIPTION:There is no publicly available data on the skills that are com
+ monly required in UK online job adverts\, despite this information being u
+ seful for a range of use cases. To address this\, we have built an open so
+ urce skills extraction python library using spaCy and huggingface. Our app
+ roach is twofold: we train a named entity recognition model to extract ski
+ ll entities from job adverts then map them onto any standardised skills ta
+ xonomy. By applying this algorithm to a dataset of scraped online job adve
+ rts\, we are then able to find skill similarities amongst occupations\, an
+ d regional differences in skill requirements.
+LOCATION:Minories
+ORGANIZER:India Kerle, Liz Gallagher, Jack Vines
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New Developments in Pandas and Dask Dataframes: by Matthew Rocklin
+DTSTART;TZID="UTC+01:00":20230604T101500
+DTEND;TZID="UTC+01:00":20230604T105500
+DESCRIPTION:We're in a new era of dataframe development.  Libraries like A
+ rrow\, Polars\, DuckDB\, Vaex\, Modin\, and others stretch the bounds of p
+ erformance on what we think can be done with tabular data in Python.  Thes
+ e systems have great benchmarking results and generate significant buzz on
+  social media.\n\nPandas\, the community favorite\, is also innovating\, a
+ lthough with less buzz.  Structural improvements like Arrow data types\, c
+ opy on write\, and more bring the world's most popular dataframe library (
+ 55% of Python users) into significantly better performance and memory use.
+   Additionally Dask\, a parallel computing library developed closely with 
+ Pandas\, has also added new features in the last year\, like memory-stable
+  shuffling\, task queueing\, and with recent experiments in query optimiza
+ tion which we'll discuss as well.  \n\nIn this talk we'll highlight some o
+ f these new features and show the impact they make on speed and cost on re
+ al-world workloads\, as well as a vision for future development.
+LOCATION:Salisbury
+ORGANIZER:Matthew Rocklin
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Getting from data to insights with powerful XAI & DataViz open-sou
+ rce tool (inc. diving deep into shap’s TreeExplainer): by Raphaël Lüth
+ i
+DTSTART;TZID="UTC+01:00":20230604T101500
+DTEND;TZID="UTC+01:00":20230604T105500
+DESCRIPTION:Have you ever wanted a standard and efficient process to appro
+ ach new datasets? Do you want a systematic way of highlighting complex non
+ linear or low frequency patters in your data?  \n\nIn this talk\, I will s
+ hare the open-source stack that I use to get efficiently extract interesti
+ ng insights from any dataset. I will teach you how to use data visualisati
+ on\, gradient boosted decision trees and XAI tools quickly find hidden pat
+ terns\, to de-risk you projects early or debug your models.
+LOCATION:Warwick
+ORGANIZER:Raphaël Lüthi
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Unconference: Is it GDPR 2.0? What is CRA and how can it affect yo
+ u and OSS in general: by Cheuk Ting Ho
+DTSTART;TZID="UTC+01:00":20230604T105500
+DTEND;TZID="UTC+01:00":20230604T113500
+DESCRIPTION:The European Parliament proposed a Cyber Resilience Act - basi
+ cally wants all software to have an “EC” stamp on it. There is a non-c
+ ommercial craft out but it is still not enough to make sure open-source pr
+ ojects with limited resources are exempted from the Act. How will it affec
+ t the OSS ecosystem?
+LOCATION:Beaumont
+ORGANIZER:Cheuk Ting Ho
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data Storytelling through Visualization: by Marysia Winkels
+DTSTART;TZID="UTC+01:00":20230604T110000
+DTEND;TZID="UTC+01:00":20230604T114000
+DESCRIPTION:Data is everywhere. It is through analysis and visualization t
+ hat we are able to turn data into information that can be used to drive be
+ tter decision making. Out-of-the-box tools will allow you to create a char
+ t\, but if you want people to take action\, your numbers need to tell a co
+ mpelling story. Learn how elements of storytelling can be applied to data 
+ visualization.
+LOCATION:Warwick
+ORGANIZER:Marysia Winkels
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:From correlations to causality in machine learning– a gentle gui
+ de to causal inference: by Steve Goodman
+DTSTART;TZID="UTC+01:00":20230604T110000
+DTEND;TZID="UTC+01:00":20230604T114000
+DESCRIPTION:Today most conventional ML systems look to exploit correlation
+ s in data in order to draw inferences. However as we learned back in schoo
+ l Statistics class\, correlation is not  causation. So when you need to kn
+ ow the ‘why’ behind a particular prediction\, or why A outperforms B i
+ n an experiment\, then relying on correlations is insufficient.  Furthermo
+ re some ML models are build purely for explainability and insight purposes
+  rather than predictions\, in order to understand how the world works so w
+ e could potentially make some kind of policy change\, e.g. What if we had 
+ chosen a different strategy or tactic – would the outcome have been diff
+ erent\, and if so\, by how much? To answer these kinds of questions\, you 
+ need to delve into the world of causality. \n\nThis talk is a gentle (and 
+ occasionally entertaining) introduction to the interdisciplinary field of 
+ causality and how it is starting to impact machine learning. You will lear
+ n what kinds of questions causal inference can answer\, and how it can add
+ ress some of the limitations of current explainable ML methods\, under cer
+ tain conditions. I draw upon use-cases drawn from financial services and m
+ arketing\, and  I will show a short practical example of how combining hum
+ an domain knowledge (intuitively via Graphical Causal Models) along with y
+ our data can sometimes unlock insights not recoverable by purely data driv
+ en approaches.
+LOCATION:Salisbury
+ORGANIZER:Steve Goodman
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Web Data Extraction with Deep Learning: by Konstantin Lopukhin
+DTSTART;TZID="UTC+01:00":20230604T110000
+DTEND;TZID="UTC+01:00":20230604T114000
+DESCRIPTION:Extracting data from web pages is a problem which is not so we
+ ll covered and researched compared to image or text classification\, objec
+ t detection or named entity recognition. But this problem is extremely exc
+ iting to look into and rewarding to work on\, because web pages can be rep
+ resented in so many ways: as a screenshot of a page\, as it's text\, as an
+  HTML tree\, as a sequence of elements with discrete and continuous proper
+ ties\, and in other ways. This leads to many diverse approaches\, which of
+ ten combine different input types and ways of data representation inside o
+ ne model. In this talk we will explore several intriguing approaches for w
+ eb data extraction\, and see how one can come up with novel approaches and
+  grow your model according to the task at hand.\nThis talk is intended for
+  anyone with interest in neural networks. I hope it gives you inspiration 
+ and intuition for building deep learning models tailored to the structure 
+ of your data. This is applicable not only to web information extraction\, 
+ but also to document extraction and other domains with structured text or 
+ image inputs.
+LOCATION:Minories
+ORGANIZER:Konstantin Lopukhin
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Robot Holmes and the Vision-Language Murder Mysteries: by Johannes
+  Kolbe
+DTSTART;TZID="UTC+01:00":20230604T114500
+DTEND;TZID="UTC+01:00":20230604T122500
+DESCRIPTION:We will follow master detective Robot Holmes on his way to sol
+ ve one of his hardest cases so far - a series of mysterious murders in the
+  city of MLington. The traces lead him to the Vision-Language part of town
+ \, which has been a quiet and tranquil place with few incidents until late
+ ly. For a few months the neighbourhood has been growing extensively and ca
+ reless benchmark leaders are dropping dead at an alarming rate.\n\nRobot H
+ olmes sets out to find the cause for this new development and will gather 
+ intel on some of the most notorious of the new citizens of the Vision-Lang
+ uage neighbourhood and find out what makes them tick.
+LOCATION:Salisbury
+ORGANIZER:Johannes Kolbe
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:How to build stunning Data Science Web applications in Python: by 
+ Florian Jacta
+DTSTART;TZID="UTC+01:00":20230604T114500
+DTEND;TZID="UTC+01:00":20230604T122500
+DESCRIPTION:This talk presents **Taipy\, a new low-code Python package** t
+ hat allows you to create complete Data Science applications\, including gr
+ aphical visualization and managing algorithms\, pipelines\, and scenarios.
+LOCATION:Warwick
+ORGANIZER:Florian Jacta
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Data work across Industries -  Discussion: by John Carney
+DTSTART;TZID="UTC+01:00":20230604T114500
+DTEND;TZID="UTC+01:00":20230604T122500
+DESCRIPTION:This session will facilitate a discussion exploring the differ
+ ences in data work between different industries\, including eCommerce\, In
+ surance\, Cyber Security\, and Finance.\n\nWe will discuss the challenges 
+ and opportunities of data work in each industry\, as well as the skills an
+ d knowledge that data professionals may need\, in order to be successful. 
+ We will cover Data Engineering and Data Science specifically\, but this is
+  an open forum for anyone to discuss data challenges in different industri
+ es.
+LOCATION:Beaumont
+ORGANIZER:John Carney
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:"Unstructured" terabyte-scale textual data processing in a distrib
+ uted cluster: by Jay Chia
+DTSTART;TZID="UTC+01:00":20230604T114500
+DTEND;TZID="UTC+01:00":20230604T122500
+DESCRIPTION:ChatGPT has reignited worldwide interest in text data\, captur
+ ing the imaginations of thousands of developers\, but how do we actually b
+ uild large scale production pipelines for working with and processing this
+  highly unstructured data?\n\nSQL is a great language for simple data moda
+ lities that fits in a database table\, but when it comes to complex "unstr
+ uctured" data\, it is Python that really shines. In this talk\, we show ho
+ w easy it is to go from data storage to querying and processing large amou
+ nts of unstructured data using modern Python open-sourced tooling such as 
+ Ray\, Daft and HuggingFace models.
+LOCATION:Minories
+ORGANIZER:Jay Chia
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART:20230604T113000Z
+DTEND;TZID="UTC+01:00":20230604T133000
+DESCRIPTION:None
+LOCATION:Salisbury
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART:20230604T113000Z
+DTEND;TZID="UTC+01:00":20230604T133000
+DESCRIPTION:None
+LOCATION:Minories
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunch
+DTSTART:20230604T113000Z
+DTEND;TZID="UTC+01:00":20230604T133000
+DESCRIPTION:None
+LOCATION:Warwick
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:PyData Organizers Meetup
+DTSTART;TZID="UTC+01:00":20230604T123000
+DTEND;TZID="UTC+01:00":20230604T133000
+DESCRIPTION:We welcome all PyData Organizers to join us for an open discus
+ sion during lunch.
+LOCATION:Beaumont
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lightning Talks
+DTSTART:20230604T123000Z
+DTEND;TZID="UTC+01:00":20230604T143000
+DESCRIPTION:None
+LOCATION:Warwick
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break & Snack
+DTSTART:20230604T133000Z
+DTEND;TZID="UTC+01:00":20230604T150000
+DESCRIPTION:None
+LOCATION:Salisbury
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break & Snack
+DTSTART:20230604T133000Z
+DTEND;TZID="UTC+01:00":20230604T150000
+DESCRIPTION:None
+LOCATION:Minories
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Break & Snack
+DTSTART:20230604T133000Z
+DTEND;TZID="UTC+01:00":20230604T150000
+DESCRIPTION:None
+LOCATION:Warwick
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Driving down the Memray lane - Profiling your data science work: b
+ y Cheuk Ting Ho
+DTSTART;TZID="UTC+01:00":20230604T150000
+DTEND;TZID="UTC+01:00":20230604T154000
+DESCRIPTION:When handling a large amount of data\, memory profiling the da
+ ta science workflow becomes more important. It gives you insight into whic
+ h process consumes lots of memory. In this talk\, we will introduce Mamray
+ \, a Python memory profiling tool and its new Jupyter plugin.
+LOCATION:Minories
+ORGANIZER:Cheuk Ting Ho
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Actionable Machine Learning in the Browser with PyScript: by Valer
+ io Maggio
+DTSTART;TZID="UTC+01:00":20230604T150000
+DTEND;TZID="UTC+01:00":20230604T154000
+DESCRIPTION:PyScript brings the full PyData stack in the browser\, opening
+  up to unprecedented use cases for interactive data-intensive applications
+ . In this scenario\, the web browser becomes a ubiquitous computing platfo
+ rm\, operating within a (nearly) _zero-installation_ & _server-less_ envir
+ onment.\n\nIn this talk\, we will explore how to create full-fledged inter
+ active front-end machine learning applications using PyScript. We will div
+ e into the the main features of the PyScript platform (e.g. _built-in Java
+ script integration_ and  _local modules_ )\, discussing _new_ data & desig
+ n patterns (e.g. _loading heterogeneous data in the browser_)\, required t
+ o adapt and to overcome the limitations imposed by the new operating envir
+ onment (i.e. the browser).
+LOCATION:Salisbury
+ORGANIZER:Valerio Maggio
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The Sound of Your Footsteps is a Digital Biomarker: by Debayan Das
+DTSTART;TZID="UTC+01:00":20230604T150000
+DTEND;TZID="UTC+01:00":20230604T154000
+DESCRIPTION:This will be a gentle introduction to the world of clinical ga
+ it analysis and how your gait (a.k.a the way you walk) is a digital biomar
+ ker for predicting physical and cognitive health. We will talk about digit
+ al biomarker engineering from unconventional sources of data (footstep sou
+ nds for example). To demonstrate a real life application\, I will briefly 
+ mention how the R&D team at MiiCare uses acoustic machine learning for fal
+ l risk assessment for older adults living alone at home and care homes acr
+ oss the UK. \n\nYou should join this talk if you are interested in digital
+  health\, digital biomarker engineering and applications of AI in social c
+ are.
+LOCATION:Warwick
+ORGANIZER:Debayan Das
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TBA- James Powell
+DTSTART:20230604T144500Z
+DTEND;TZID="UTC+01:00":20230604T162500
+DESCRIPTION:None
+LOCATION:Minories
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:TBA
+DTSTART:20230604T144500Z
+DTEND;TZID="UTC+01:00":20230604T162500
+DESCRIPTION:None
+LOCATION:Warwick
+ORGANIZER:
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Software Engineering Practices in Data Science: by Laszlo Sragner\
+ , Matteo Latinov
+DTSTART;TZID="UTC+01:00":20230604T154500
+DTEND;TZID="UTC+01:00":20230604T162500
+DESCRIPTION:This discussion session focuses on exploring the application o
+ f software engineering practices in the field of data science. Join us to 
+ delve into essential aspects such as python packages\, IDEs\, testing\, re
+ factoring\, and architecture that play a crucial role in building robust a
+ nd scalable data science solutions. We will discuss how adopting software 
+ engineering principles can enhance the reliability\, maintainability\, and
+  efficiency of data science projects. Whether you're a DS manager or pract
+ itioner\, this session offers a platform to exchange insights\, share expe
+ riences\, and discover innovative approaches to integrating software engin
+ eering practices into the data science workflow.
+LOCATION:Beaumont
+ORGANIZER:Laszlo Sragner, Matteo Latinov
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Synthetic data: what is it and why do we need it?: by Zhaozhi Qian
+DTSTART;TZID="UTC+01:00":20230604T154500
+DTEND;TZID="UTC+01:00":20230604T162500
+DESCRIPTION:One of the biggest barriers to machine learning and data analy
+ tics is the difficulty to access high quality data. Synthetic data has bee
+ n widely recognized as a promising remedy to this problem. It allows shari
+ ng\, augmenting and de-biasing data for building performant and socially r
+ esponsible ML systems. In this talk\, I will overview the significant prog
+ ress in the theory and methodology of synthetic data over the past five ye
+ ars. I will also introduce the open-source library\, [Synthcity](https://g
+ ithub.com/vanderschaarlab/synthcity)\, which implements an array of cuttin
+ g-edge synthetic data generators to address data scarcity\, privacy\, and 
+ bias. The participants will walk away with a deeper understanding of the t
+ heory and practice of synthetic data\, an understanding of when which meth
+ ods apply (or do not apply) to their specific use case\, and be ready to a
+ pply them in hackathons\, competitions\, and their day-to-day work.
+LOCATION:Salisbury
+ORGANIZER:Zhaozhi Qian
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Deploying Real-Time Machine Learning Models Using Serverless AWS: 
+ by Pedro Tabacof
+DTSTART;TZID="UTC+01:00":20230604T163000
+DTEND;TZID="UTC+01:00":20230604T171000
+DESCRIPTION:In this presentation\, I will show how to use AWS Lambda and A
+ PI Gateway to deploy real-time machine learning models developed in Python
+ . I will use these tools to create a serverless web endpoint and serve mod
+ el predictions with high availability/scalability. These tools provide a r
+ elatively simple and cost-effective solution for data scientists and machi
+ ne learning engineers looking to deploy models without the hassle of manag
+ ing servers and without needing to rely on third parties. I will cover pot
+ ential pitfalls to be aware of\, such as Lambda's cold start delays and me
+ mory limitations. Through code examples and practical tips\, attendees wil
+ l gain a solid understanding of how to use serverless AWS to deploy and se
+ rve their own machine learning models at scale.
+LOCATION:Salisbury
+ORGANIZER:Pedro Tabacof
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:The 11 Types of Comedy and Large Language Models (LLMs): by Sam Jo
+ seph
+DTSTART;TZID="UTC+01:00":20230604T163000
+DTEND;TZID="UTC+01:00":20230604T171000
+DESCRIPTION:This talk is about how advances in Large Language Models (LLMs
+ ) are helping make inroads into the 11 types of comedy. For many years mos
+ t\, but not all\, types of humour were beyond the reach of automated syste
+ ms. This talk is for those interested in comedy\, how it is created\, the 
+ state of the art in LLMs\, and comedy datasets. This talk will include spe
+ cific code examples as well as trying to be humorous in its own way. At th
+ e end the audience will have learnt how LLMs are changing the human/comput
+ er comedy landscape.
+LOCATION:Warwick
+ORGANIZER:Sam Joseph
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Building end-to-end internal analytics products using Python and o
+ pen-source: by Leo Anthias
+DTSTART;TZID="UTC+01:00":20230604T163000
+DTEND;TZID="UTC+01:00":20230604T171000
+DESCRIPTION:This talk educates the audience on how to create end-to-end da
+ ta products using the Python data ecosystem\, from data integration to rep
+ orting\, dashboards\, apps\, and surfacing insights.\n\nAfter analyzing th
+ e features found in popular proprietary analytics products across various 
+ verticals\, this talk will demonstrate how data teams can use open-source 
+ libraries to create and deploy applications which are accessible to non-te
+ chnical end users but hold distinct advantages over proprietary alternativ
+ es.
+LOCATION:Minories
+ORGANIZER:Leo Anthias
+END:VEVENT
+END:VCALENDAR
