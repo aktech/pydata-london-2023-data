@@ -1,10 +1,14 @@
 import datetime
 import json
+import logging
 
+import requests
 from icalendar import Calendar, Event
 
 
 DATE_FORMAT = '%Y-%m-%dT%H:%M:%S%z'
+ICS_FILE = 'calendar.ics'
+SCHEDULE_JSON = 'https://london2023.pydata.org/cfp/schedule/widget/v2.json'
 
 
 def create_event(talk, speaker_mapping, room_mapping):
@@ -37,6 +41,16 @@ def create_event(talk, speaker_mapping, room_mapping):
 
 
 def get_schedule():
+    try:
+        response = requests.get(SCHEDULE_JSON)
+        schedule = response.json()
+    except Exception as e:
+        logging.warning(f"Could not load schedule from url, reading from file: {e}")
+        schedule = json.load(open('v2.json', 'r'))
+    return schedule
+
+
+def create_ical():
     schedule = json.load(open('v2.json', 'r'))
     talks = schedule['talks']
     speakers = schedule['speakers']
@@ -52,9 +66,23 @@ def get_schedule():
         event = create_event(talk, speaker_mapping, room_mapping)
         cal.add_component(event)
 
-    with open('calendar.ics', 'wb') as f:
+    with open(ICS_FILE, 'wb') as f:
         f.write(cal.to_ical())
 
 
+def setup_logging():
+    """
+    Setups logging for the ballot.
+    :return: None
+    """
+    logging_format = (
+        "%(asctime)s %(levelname)9s %(lineno)4s %(module)s: %(message)s"
+    )
+    logging.basicConfig(
+        level=logging.INFO, format=logging_format
+    )
+
+
 if __name__ == "__main__":
-    get_schedule()
+    setup_logging()
+    create_ical()

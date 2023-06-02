@@ -1,0 +1,24 @@
+name: Create iCal
+
+on: [push]
+
+jobs:
+  ical:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4.6.0
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Create ical file
+        run: python app.py
+
+      - name: Upload ics File
+        uses: actions/upload-artifact@v3
+        with:
+          name: 'calendar.ics'
+          path: 'calendar.ics'
